@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://cj2abc123proj"]
+
+[ext_resource type="Script" path="res://Scripts/Weapons/BallisticsSystem.gd" id="1_ballistics"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_glow"]
+albedo_color = Color(1, 0.8, 0, 1)
+emission_enabled = true
+emission = Color(1, 0.8, 0, 1)
+emission_energy_multiplier = 4.0
+
+[sub_resource type="BoxMesh" id="BoxMesh_tracer"]
+material = SubResource("StandardMaterial3D_glow")
+size = Vector3(0.05, 0.05, 0.4)
+
+[node name="Projectile" type="Node3D"]
+script = ExtResource("1_ballistics")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("BoxMesh_tracer")

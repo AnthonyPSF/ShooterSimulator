@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://ck2a6xmln7rwp"]
+
+[ext_resource type="Script" uid="uid://dif6g7w7ohwuh" path="res://Scripts/Interactables/shop.gd" id="1_io27d"]
+[ext_resource type="ArrayMesh" uid="uid://76el0kes13t8" path="res://Assets/obj/farm-20-barn_roof.obj" id="2_fdj0q"]
+[ext_resource type="ArrayMesh" uid="uid://qvdhlheqfhdg" path="res://Assets/obj/farm-21-barn.obj" id="3_k6jq0"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_i4qx4"]
+
+[node name="Shop" type="StaticBody3D" unique_id=666819465]
+script = ExtResource("1_io27d")
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1060068519]
+transform = Transform3D(1, 0, 0, 0, 0.31829756, 0.9479909, 0, -0.9479909, 0.31829756, -4.731754, -1.6847878, -6.1903725)
+shape = SubResource("BoxShape3D_i4qx4")
+
+[node name="Farm20BarnRoof" type="MeshInstance3D" parent="." unique_id=1751624941]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.9177604, 0, 5.234599)
+mesh = ExtResource("2_fdj0q")
+
+[node name="Farm21Barn" type="MeshInstance3D" parent="." unique_id=93670938]
+transform = Transform3D(0.99999183, -0.003439049, 0.0021453123, 0.0034430649, 0.9999923, -0.0018761825, -0.0021388615, 0.0018835332, 0.99999595, 1.0260444, -0.027503967, 5.429235)
+mesh = ExtResource("3_k6jq0")

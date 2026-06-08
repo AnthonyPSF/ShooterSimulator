@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ms15ktuq6aws"
+path="res://.godot/imported/farm-25-sheep_white.obj-1a724c5603926a25fe7edfa07bcbdaee.mesh"
+
+[deps]
+
+files=["res://.godot/imported/farm-25-sheep_white.obj-1a724c5603926a25fe7edfa07bcbdaee.mesh"]
+
+source_file="res://Assets/Farm/obj/farm-25-sheep_white.obj"
+dest_files=["res://.godot/imported/farm-25-sheep_white.obj-1a724c5603926a25fe7edfa07bcbdaee.mesh", "res://.godot/imported/farm-25-sheep_white.obj-1a724c5603926a25fe7edfa07bcbdaee.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

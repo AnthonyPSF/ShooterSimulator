@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ng0isnwn58x3"
+path="res://.godot/imported/farm-19-cow_br.obj-68bfda49596a58d5e334460b4cfb934d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/farm-19-cow_br.obj-68bfda49596a58d5e334460b4cfb934d.mesh"]
+
+source_file="res://Assets/obj/farm-19-cow_br.obj"
+dest_files=["res://.godot/imported/farm-19-cow_br.obj-68bfda49596a58d5e334460b4cfb934d.mesh", "res://.godot/imported/farm-19-cow_br.obj-68bfda49596a58d5e334460b4cfb934d.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

@@ -1,0 +1,104 @@
+[gd_scene format=3 uid="uid://b00gplayer01"]
+
+[ext_resource type="Script" uid="uid://cq2aba20sx2ia" path="res://Scripts/Player/PlayerController.gd" id="1_playr"]
+[ext_resource type="Script" path="res://Scripts/Weapons/WeaponManager.gd" id="2_wepman"]
+[ext_resource type="Script" path="res://Scripts/Weapons/AssaultRifle.gd" id="3_ar"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_0p1"]
+radius = 0.4
+height = 1.8
+
+[sub_resource type="BoxMesh" id="BoxMesh_dewec"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_dewec"]
+albedo_color = Color(0.54509807, 0.27058825, 0.07450981, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_nn08x"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_5ixxa"]
+albedo_color = Color(0, 1, 1, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_bhhdu"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_nn08x"]
+albedo_color = Color(0, 0, 0.54509807, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_yoq75"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_52ee3"]
+albedo_color = Color(0, 0, 0.54509807, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_megsn"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_yoq75"]
+albedo_color = Color(1, 0.8, 0.6, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_ksbbd"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_glx4g"]
+albedo_color = Color(1, 0.8, 0.6, 1)
+
+[node name="Player" type="CharacterBody3D" unique_id=2047499812]
+script = ExtResource("1_playr")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1568803952]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+shape = SubResource("CapsuleShape3D_0p1")
+
+[node name="HeadPivot" type="Node3D" parent="." unique_id=1773513917]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5, 0)
+
+[node name="MainCamera" type="Camera3D" parent="HeadPivot" unique_id=1000345780]
+
+[node name="InteractionRay" type="RayCast3D" parent="HeadPivot/MainCamera" unique_id=657846286]
+target_position = Vector3(0, 0, -3)
+
+[node name="ViewmodelPivot" type="Node3D" parent="HeadPivot/MainCamera" unique_id=1446542987]
+
+[node name="ToolAttachmentPoint" type="Marker3D" parent="HeadPivot/MainCamera/ViewmodelPivot" unique_id=1363166954]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.6)
+
+[node name="WeaponManager" type="Node3D" parent="HeadPivot/MainCamera/ViewmodelPivot"]
+script = ExtResource("2_wepman")
+
+[node name="AssaultRifle" type="Node3D" parent="HeadPivot/MainCamera/ViewmodelPivot/WeaponManager"]
+script = ExtResource("3_ar")
+
+[node name="Pistol" type="Node3D" parent="HeadPivot/MainCamera/ViewmodelPivot/WeaponManager"]
+script = ExtResource("3_ar")
+
+[node name="HeadMesh" type="MeshInstance3D" parent="." unique_id=1580293928]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.06886482, 1.8595276, -0.12393713)
+cast_shadow = 3
+mesh = SubResource("BoxMesh_dewec")
+surface_material_override/0 = SubResource("StandardMaterial3D_dewec")
+
+[node name="TorsoMesh" type="MeshInstance3D" parent="." unique_id=1076415005]
+transform = Transform3D(0.5, 0, 0, 0, 0.75, 0, 0, 0, 0.25, 0, 1, 0)
+cast_shadow = 3
+mesh = SubResource("BoxMesh_nn08x")
+surface_material_override/0 = SubResource("StandardMaterial3D_5ixxa")
+
+[node name="RightLegMesh" type="MeshInstance3D" parent="." unique_id=127288044]
+transform = Transform3D(0.25, 0, 0, 0, 0.75, 0, 0, 0, 0.25, -0.125, 0.375, 0)
+cast_shadow = 3
+mesh = SubResource("BoxMesh_bhhdu")
+surface_material_override/0 = SubResource("StandardMaterial3D_nn08x")
+
+[node name="LeftLegMesh" type="MeshInstance3D" parent="." unique_id=1345563752]
+transform = Transform3D(0.25, 0, 0, 0, 0.75, 0, 0, 0, 0.25, 0.125, 0.375, 0)
+cast_shadow = 3
+mesh = SubResource("BoxMesh_yoq75")
+surface_material_override/0 = SubResource("StandardMaterial3D_52ee3")
+
+[node name="RightArmMesh" type="MeshInstance3D" parent="." unique_id=577578816]
+transform = Transform3D(0.25, 0, 0, 0, 0.75, 0, 0, 0, 0.25, -0.375, 1, 0)
+cast_shadow = 3
+mesh = SubResource("BoxMesh_megsn")
+surface_material_override/0 = SubResource("StandardMaterial3D_yoq75")
+
+[node name="LeftArmMesh" type="MeshInstance3D" parent="." unique_id=1273427556]
+transform = Transform3D(0.25, 0, 0, 0, 0.75, 0, 0, 0, 0.25, 0.375, 1, 0)
+cast_shadow = 3
+mesh = SubResource("BoxMesh_ksbbd")
+surface_material_override/0 = SubResource("StandardMaterial3D_glx4g")

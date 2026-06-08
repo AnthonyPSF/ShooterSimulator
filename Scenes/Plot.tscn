@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://dejc14yu66vhq"]
+
+[ext_resource type="Script" uid="uid://c6rhofqjpxt0s" path="res://Scripts/Interactables/plot.gd" id="1_asn60"]
+[ext_resource type="Material" path="res://Assets/Textures/dirt_material.tres" id="2_2axv3"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_2axv3"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_v15ml"]
+
+[node name="Plot" type="StaticBody3D" unique_id=1456577426]
+script = ExtResource("1_asn60")
+
+[node name="Visual" type="MeshInstance3D" parent="." unique_id=293429116]
+transform = Transform3D(2, 0, 0, 0, 0.2, 0, 0, 0, 2, 0, 0, 0)
+mesh = SubResource("BoxMesh_2axv3")
+surface_material_override/0 = ExtResource("2_2axv3")
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1061446539]
+transform = Transform3D(2, 0, 0, 0, 0.2, 0, 0, 0, 2, 0, 0, 0)
+shape = SubResource("BoxShape3D_v15ml")

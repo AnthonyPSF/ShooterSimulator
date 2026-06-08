@@ -1,0 +1,77 @@
+[gd_scene format=3 uid="uid://btr80o43xgskj"]
+
+[ext_resource type="Script" path="res://Scripts/PlayerAimLab.gd" id="1_n4cgp"]
+[ext_resource type="Script" path="res://Scripts/GameManagerAimLab.gd" id="2_g5f2f"]
+[ext_resource type="Script" path="res://Scripts/TargetManagerAimLab.gd" id="3_yg8c5"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_tx2l3"]
+
+[node name="AimLab" type="Node3D" unique_id=1223845194]
+
+[node name="Environment" type="Node3D" parent="." unique_id=850011301]
+
+[node name="Floor" type="CSGBox3D" parent="Environment" unique_id=1302895557]
+use_collision = true
+size = Vector3(20, 1, 20)
+
+[node name="Wall1" type="CSGBox3D" parent="Environment" unique_id=2068070982]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5, -10)
+use_collision = true
+size = Vector3(20, 10, 1)
+
+[node name="Wall2" type="CSGBox3D" parent="Environment" unique_id=324533634]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5, 10)
+use_collision = true
+size = Vector3(20, 10, 1)
+
+[node name="Wall3" type="CSGBox3D" parent="Environment" unique_id=2106002541]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10, 5, 0)
+use_collision = true
+size = Vector3(1, 10, 20)
+
+[node name="Wall4" type="CSGBox3D" parent="Environment" unique_id=1939171573]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 5, 0)
+use_collision = true
+size = Vector3(1, 10, 20)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="Environment" unique_id=2071629120]
+transform = Transform3D(1, 0, 0, 0, 0.0707372, 0.997495, 0, -0.997495, 0.0707372, 0, 0, 0)
+
+[node name="Player" type="CharacterBody3D" parent="." unique_id=1322910271]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5, 0)
+script = ExtResource("1_n4cgp")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Player" unique_id=1996868673]
+shape = SubResource("CapsuleShape3D_tx2l3")
+
+[node name="Head" type="Node3D" parent="Player" unique_id=973844263]
+
+[node name="Camera3D" type="Camera3D" parent="Player/Head" unique_id=817173190]
+
+[node name="RayCast3D" type="RayCast3D" parent="Player/Head/Camera3D" unique_id=93648091]
+target_position = Vector3(0, 0, -50)
+
+[node name="GameManager" type="Node" parent="." unique_id=1099204063]
+script = ExtResource("2_g5f2f")
+
+[node name="UI" type="CanvasLayer" parent="." unique_id=846068458]
+
+[node name="ScoreLabel" type="Label" parent="UI" unique_id=320256810]
+text = "Score: 0"
+
+[node name="TimeLabel" type="Label" parent="UI" unique_id=1025829352]
+offset_top = 30.0
+offset_right = 1.0
+offset_bottom = 53.0
+text = "Time: 60"
+
+[node name="Crosshair" type="ColorRect" parent="UI" unique_id=827495576]
+offset_right = 4.0
+offset_bottom = 4.0
+color = Color(1, 0, 0, 1)
+
+[node name="TargetManager" type="Node3D" parent="." unique_id=1320198103]
+script = ExtResource("3_yg8c5")
+
+[node name="Timer" type="Timer" parent="TargetManager" unique_id=1117235074]
+autostart = true

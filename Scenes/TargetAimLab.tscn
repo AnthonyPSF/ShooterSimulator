@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://c1t8rhih2j737"]
+
+[ext_resource type="Script" path="res://Scripts/TargetAimLab.gd" id="1_gjehy"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_h3i1h"]
+
+[node name="Target" type="Area3D" unique_id=802725184]
+script = ExtResource("1_gjehy")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=391152112]
+shape = SubResource("SphereShape3D_h3i1h")
+
+[node name="CSGSphere3D" type="CSGSphere3D" parent="." unique_id=1219744580]

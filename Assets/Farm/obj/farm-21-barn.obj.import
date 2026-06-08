@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://fx4l7eu1ipml"
+path="res://.godot/imported/farm-21-barn.obj-ce8eb15a12a5f03f314834a06e546b36.mesh"
+
+[deps]
+
+files=["res://.godot/imported/farm-21-barn.obj-ce8eb15a12a5f03f314834a06e546b36.mesh"]
+
+source_file="res://Assets/Farm/obj/farm-21-barn.obj"
+dest_files=["res://.godot/imported/farm-21-barn.obj-ce8eb15a12a5f03f314834a06e546b36.mesh", "res://.godot/imported/farm-21-barn.obj-ce8eb15a12a5f03f314834a06e546b36.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

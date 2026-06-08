@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://6xw4vgohjcbn"
+path="res://.godot/imported/farm-50-seed_cauli.obj-e29051a58bdb58352a53c1655273e5da.mesh"
+
+[deps]
+
+files=["res://.godot/imported/farm-50-seed_cauli.obj-e29051a58bdb58352a53c1655273e5da.mesh"]
+
+source_file="res://Assets/obj/farm-50-seed_cauli.obj"
+dest_files=["res://.godot/imported/farm-50-seed_cauli.obj-e29051a58bdb58352a53c1655273e5da.mesh", "res://.godot/imported/farm-50-seed_cauli.obj-e29051a58bdb58352a53c1655273e5da.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

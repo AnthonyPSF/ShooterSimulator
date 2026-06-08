@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bxm3wwhvbyr3g"
+path="res://.godot/imported/farm-51.obj-6100bf41a1a2e4ad857a77190e56bb51.mesh"
+
+[deps]
+
+files=["res://.godot/imported/farm-51.obj-6100bf41a1a2e4ad857a77190e56bb51.mesh"]
+
+source_file="res://Assets/Farm/obj/farm-51.obj"
+dest_files=["res://.godot/imported/farm-51.obj-6100bf41a1a2e4ad857a77190e56bb51.mesh", "res://.godot/imported/farm-51.obj-6100bf41a1a2e4ad857a77190e56bb51.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false
