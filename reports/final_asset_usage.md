@@ -1,0 +1,88 @@
+# Final Asset Usage
+
+- Models/ammo_cassings.glb
+- Weapons/AssaultRifle_2.glb
+- Models/caja_municion_low_poly.glb
+- Weapons/free_low_poly_shotgun__escopeta.glb
+- Weapons/guns_low_poly.glb
+- Models/low-poly_ammo_can.glb
+- Weapons/low-poly_guns_pack.glb
+- Weapons/pistol_g17_low_poly.glb
+- Models/barrera_acustica.glb
+- Models/cercas.glb
+- Models/city_wall.glb
+- Models/coleccion_vallas_de_obra_low-poly__high-poly.glb
+- Models/cono_de_transito__traffic_cone.glb
+- Targets/low_polly_target_range.glb
+- Models/modulo_de_cercas.glb
+- Models/pack_of_sacks.glb
+- Models/torre_grande.glb
+- Models/wall_tower.glb
+- Models/caja_de_madera_3d_estilo_low_poly_blender_3.2.glb
+- Models/low-poly_brick_wall.glb
+- Models/low_poly_concrete_barricade_44_tris_-_game_ready.glb
+- Models/low_poly_simple_wood_modular_structures.glb
+- Models/low_poly_style_3d_stone_effect_wall.glb
+- Models/wall_low_poly.glb
+- Targets/archery_target_low_poly.glb
+- Targets/poster_target.glb
+- Targets/standard_firing_target.glb
+- Targets/target.glb
+- Models/barril_-_barrel_3d_low_poly.glb
+- Models/cone_3d_low_poly.glb
+- Models/desk_and_pc.glb
+- Models/dirty_traffic_cones_-_low_poly_asset_pack.glb
+- Models/estante_low_poly.glb
+- Models/lamplampara.glb
+- Models/lamp_low_poly.glb
+- Models/low_poly_chair.glb
+- Models/mesa_low_poly.glb
+- Models/stylized_low_poly_table.glb
+- Models/wooden_box_low_poly.glb
+- Models/wooden_pallets.glb
+- Models/gravel_ground_patch.glb
+- Models/patch_of_grass.glb
+- Models/realistic_game-ready_terrain_environment.glb
+- Models/stylized_low-poly_sand_block.glb
+- Shared/Ubuntu-Regular.ttf
+- Shared/Fence.mtl
+- Models/Fence.obj
+- Shared/Fence.obj.import
+- Shared/Ground.mtl
+- Models/Ground.obj
+- Shared/Ground.obj.import
+- Shared/Tree_1.mtl
+- Models/Tree_1.obj
+- Shared/Tree_1.obj.import
+- Shared/Tree_2.mtl
+- Models/Tree_2.obj
+- Shared/Tree_2.obj.import
+- Shared/AmmoBoxModel.dae
+- Shared/AmmoBoxModel.dae.import
+- Materials/Bullet.material
+- Materials/Container.material
+- Materials/Drum.material
+- Materials/Health.material
+- Shared/HealthPackModel.dae
+- Shared/HealthPackModel.dae.import
+- Materials/White.material
+- Shared/ammo_pistol.mtl
+- Weapons/ammo_pistol.obj
+- Shared/ammo_pistol.obj.import
+- Shared/shotgun.mtl
+- Weapons/shotgun.obj
+- Shared/shotgun.obj.import
+- Textures/Crosshair.png
+- Shared/Crosshair.png.import
+- Textures/UI_Square.png
+- Shared/UI_Square.png.import
+
+## Category Counts
+- Weapons: 7
+- Targets: 5
+- Textures: 2
+- Materials: 5
+- Sounds: 0
+- UI: 0
+- Models: 38
+- Shared: 19

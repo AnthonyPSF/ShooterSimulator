@@ -1,0 +1,302 @@
+[
+  {
+    "file": "ammo_cassings.glb",
+    "format": ".glb",
+    "materials_assumed": false,
+    "textures_assumed": false
+  },
+  {
+    "file": "AssaultRifle_2.glb",
+    "format": ".glb",
+    "materials_assumed": false,
+    "textures_assumed": false
+  },
+  {
+    "file": "caja_municion_low_poly.glb",
+    "format": ".glb",
+    "materials_assumed": false,
+    "textures_assumed": false
+  },
+  {
+    "file": "free_low_poly_shotgun__escopeta.glb",
+    "format": ".glb",
+    "materials_assumed": false,
+    "textures_assumed": false
+  },
+  {
+    "file": "guns_low_poly.glb",
+    "format": ".glb",
+    "materials_assumed": false,
+    "textures_assumed": false
+  },
+  {
+    "file": "low-poly_ammo_can.glb",
+    "format": ".glb",
+    "materials_assumed": false,
+    "textures_assumed": false
+  },
+  {
+    "file": "low-poly_guns_pack.glb",
+    "format": ".glb",
+    "materials_assumed": false,
+    "textures_assumed": false
+  },
+  {
+    "file": "pistol_g17_low_poly.glb",
+    "format": ".glb",
+    "materials_assumed": false,
+    "textures_assumed": false
+  },
+  {
+    "file": "barrera_acustica.glb",
+    "format": ".glb",
+    "materials_assumed": false,
+    "textures_assumed": false
+  },
+  {
+    "file": "cercas.glb",
+    "format": ".glb",
+    "materials_assumed": false,
+    "textures_assumed": false
+  },
+  {
+    "file": "city_wall.glb",
+    "format": ".glb",
+    "materials_assumed": false,
+    "textures_assumed": false
+  },
+  {
+    "file": "coleccion_vallas_de_obra_low-poly__high-poly.glb",
+    "format": ".glb",
+    "materials_assumed": false,
+    "textures_assumed": false
+  },
+  {
+    "file": "cono_de_transito__traffic_cone.glb",
+    "format": ".glb",
+    "materials_assumed": false,
+    "textures_assumed": false
+  },
+  {
+    "file": "low_polly_target_range.glb",
+    "format": ".glb",
+    "materials_assumed": false,
+    "textures_assumed": false
+  },
+  {
+    "file": "modulo_de_cercas.glb",
+    "format": ".glb",
+    "materials_assumed": false,
+    "textures_assumed": false
+  },
+  {
+    "file": "pack_of_sacks.glb",
+    "format": ".glb",
+    "materials_assumed": false,
+    "textures_assumed": false
+  },
+  {
+    "file": "torre_grande.glb",
+    "format": ".glb",
+    "materials_assumed": false,
+    "textures_assumed": false
+  },
+  {
+    "file": "wall_tower.glb",
+    "format": ".glb",
+    "materials_assumed": false,
+    "textures_assumed": false
+  },
+  {
+    "file": "caja_de_madera_3d_estilo_low_poly_blender_3.2.glb",
+    "format": ".glb",
+    "materials_assumed": false,
+    "textures_assumed": false
+  },
+  {
+    "file": "low-poly_brick_wall.glb",
+    "format": ".glb",
+    "materials_assumed": false,
+    "textures_assumed": false
+  },
+  {
+    "file": "low_poly_concrete_barricade_44_tris_-_game_ready.glb",
+    "format": ".glb",
+    "materials_assumed": false,
+    "textures_assumed": false
+  },
+  {
+    "file": "low_poly_simple_wood_modular_structures.glb",
+    "format": ".glb",
+    "materials_assumed": false,
+    "textures_assumed": false
+  },
+  {
+    "file": "low_poly_style_3d_stone_effect_wall.glb",
+    "format": ".glb",
+    "materials_assumed": false,
+    "textures_assumed": false
+  },
+  {
+    "file": "wall_low_poly.glb",
+    "format": ".glb",
+    "materials_assumed": false,
+    "textures_assumed": false
+  },
+  {
+    "file": "archery_target_low_poly.glb",
+    "format": ".glb",
+    "materials_assumed": false,
+    "textures_assumed": false
+  },
+  {
+    "file": "poster_target.glb",
+    "format": ".glb",
+    "materials_assumed": false,
+    "textures_assumed": false
+  },
+  {
+    "file": "standard_firing_target.glb",
+    "format": ".glb",
+    "materials_assumed": false,
+    "textures_assumed": false
+  },
+  {
+    "file": "target.glb",
+    "format": ".glb",
+    "materials_assumed": false,
+    "textures_assumed": false
+  },
+  {
+    "file": "barril_-_barrel_3d_low_poly.glb",
+    "format": ".glb",
+    "materials_assumed": false,
+    "textures_assumed": false
+  },
+  {
+    "file": "cone_3d_low_poly.glb",
+    "format": ".glb",
+    "materials_assumed": false,
+    "textures_assumed": false
+  },
+  {
+    "file": "desk_and_pc.glb",
+    "format": ".glb",
+    "materials_assumed": false,
+    "textures_assumed": false
+  },
+  {
+    "file": "dirty_traffic_cones_-_low_poly_asset_pack.glb",
+    "format": ".glb",
+    "materials_assumed": false,
+    "textures_assumed": false
+  },
+  {
+    "file": "estante_low_poly.glb",
+    "format": ".glb",
+    "materials_assumed": false,
+    "textures_assumed": false
+  },
+  {
+    "file": "lamplampara.glb",
+    "format": ".glb",
+    "materials_assumed": false,
+    "textures_assumed": false
+  },
+  {
+    "file": "lamp_low_poly.glb",
+    "format": ".glb",
+    "materials_assumed": false,
+    "textures_assumed": false
+  },
+  {
+    "file": "low_poly_chair.glb",
+    "format": ".glb",
+    "materials_assumed": false,
+    "textures_assumed": false
+  },
+  {
+    "file": "mesa_low_poly.glb",
+    "format": ".glb",
+    "materials_assumed": false,
+    "textures_assumed": false
+  },
+  {
+    "file": "stylized_low_poly_table.glb",
+    "format": ".glb",
+    "materials_assumed": false,
+    "textures_assumed": false
+  },
+  {
+    "file": "wooden_box_low_poly.glb",
+    "format": ".glb",
+    "materials_assumed": false,
+    "textures_assumed": false
+  },
+  {
+    "file": "wooden_pallets.glb",
+    "format": ".glb",
+    "materials_assumed": false,
+    "textures_assumed": false
+  },
+  {
+    "file": "gravel_ground_patch.glb",
+    "format": ".glb",
+    "materials_assumed": false,
+    "textures_assumed": false
+  },
+  {
+    "file": "patch_of_grass.glb",
+    "format": ".glb",
+    "materials_assumed": false,
+    "textures_assumed": false
+  },
+  {
+    "file": "realistic_game-ready_terrain_environment.glb",
+    "format": ".glb",
+    "materials_assumed": false,
+    "textures_assumed": false
+  },
+  {
+    "file": "stylized_low-poly_sand_block.glb",
+    "format": ".glb",
+    "materials_assumed": false,
+    "textures_assumed": false
+  },
+  {
+    "file": "Fence.obj",
+    "format": ".obj",
+    "materials_assumed": false,
+    "textures_assumed": false
+  },
+  {
+    "file": "Ground.obj",
+    "format": ".obj",
+    "materials_assumed": false,
+    "textures_assumed": false
+  },
+  {
+    "file": "Tree_1.obj",
+    "format": ".obj",
+    "materials_assumed": false,
+    "textures_assumed": false
+  },
+  {
+    "file": "Tree_2.obj",
+    "format": ".obj",
+    "materials_assumed": false,
+    "textures_assumed": false
+  },
+  {
+    "file": "ammo_pistol.obj",
+    "format": ".obj",
+    "materials_assumed": false,
+    "textures_assumed": false
+  },
+  {
+    "file": "shotgun.obj",
+    "format": ".obj",
+    "materials_assumed": false,
+    "textures_assumed": false
+  }
+]

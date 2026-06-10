@@ -1,0 +1,610 @@
+[
+  {
+    "name": "ammo_cassings.glb",
+    "type": "Models",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\ASSETS AIM TRAINER W\\ASSETS AIM TRAINER W\\ARMAS\\ammo_cassings.glb",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Models\\ammo_cassings.glb",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Models\\ammo_cassings.glb"
+  },
+  {
+    "name": "AssaultRifle_2.glb",
+    "type": "Weapons",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\ASSETS AIM TRAINER W\\ASSETS AIM TRAINER W\\ARMAS\\AssaultRifle_2.glb",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Weapons\\AssaultRifle_2.glb",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Weapons\\AssaultRifle_2.glb"
+  },
+  {
+    "name": "caja_municion_low_poly.glb",
+    "type": "Models",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\ASSETS AIM TRAINER W\\ASSETS AIM TRAINER W\\ARMAS\\caja_municion_low_poly.glb",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Models\\caja_municion_low_poly.glb",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Models\\caja_municion_low_poly.glb"
+  },
+  {
+    "name": "free_low_poly_shotgun__escopeta.glb",
+    "type": "Weapons",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\ASSETS AIM TRAINER W\\ASSETS AIM TRAINER W\\ARMAS\\free_low_poly_shotgun__escopeta.glb",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Weapons\\free_low_poly_shotgun__escopeta.glb",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Weapons\\free_low_poly_shotgun__escopeta.glb"
+  },
+  {
+    "name": "guns_low_poly.glb",
+    "type": "Weapons",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\ASSETS AIM TRAINER W\\ASSETS AIM TRAINER W\\ARMAS\\guns_low_poly.glb",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Weapons\\guns_low_poly.glb",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Weapons\\guns_low_poly.glb"
+  },
+  {
+    "name": "low-poly_ammo_can.glb",
+    "type": "Models",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\ASSETS AIM TRAINER W\\ASSETS AIM TRAINER W\\ARMAS\\low-poly_ammo_can.glb",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Models\\low-poly_ammo_can.glb",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Models\\low-poly_ammo_can.glb"
+  },
+  {
+    "name": "low-poly_guns_pack.glb",
+    "type": "Weapons",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\ASSETS AIM TRAINER W\\ASSETS AIM TRAINER W\\ARMAS\\low-poly_guns_pack.glb",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Weapons\\low-poly_guns_pack.glb",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Weapons\\low-poly_guns_pack.glb"
+  },
+  {
+    "name": "pistol_g17_low_poly.glb",
+    "type": "Weapons",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\ASSETS AIM TRAINER W\\ASSETS AIM TRAINER W\\ARMAS\\pistol_g17_low_poly.glb",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Weapons\\pistol_g17_low_poly.glb",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Weapons\\pistol_g17_low_poly.glb"
+  },
+  {
+    "name": "barrera_acustica.glb",
+    "type": "Models",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\ASSETS AIM TRAINER W\\ASSETS AIM TRAINER W\\CAMPOTIRO\\barrera_acustica.glb",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Models\\barrera_acustica.glb",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Models\\barrera_acustica.glb"
+  },
+  {
+    "name": "cercas.glb",
+    "type": "Models",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\ASSETS AIM TRAINER W\\ASSETS AIM TRAINER W\\CAMPOTIRO\\cercas.glb",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Models\\cercas.glb",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Models\\cercas.glb"
+  },
+  {
+    "name": "city_wall.glb",
+    "type": "Models",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\ASSETS AIM TRAINER W\\ASSETS AIM TRAINER W\\CAMPOTIRO\\city_wall.glb",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Models\\city_wall.glb",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Models\\city_wall.glb"
+  },
+  {
+    "name": "coleccion_vallas_de_obra_low-poly__high-poly.glb",
+    "type": "Models",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\ASSETS AIM TRAINER W\\ASSETS AIM TRAINER W\\CAMPOTIRO\\coleccion_vallas_de_obra_low-poly__high-poly.glb",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Models\\coleccion_vallas_de_obra_low-poly__high-poly.glb",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Models\\coleccion_vallas_de_obra_low-poly__high-poly.glb"
+  },
+  {
+    "name": "cono_de_transito__traffic_cone.glb",
+    "type": "Models",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\ASSETS AIM TRAINER W\\ASSETS AIM TRAINER W\\CAMPOTIRO\\cono_de_transito__traffic_cone.glb",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Models\\cono_de_transito__traffic_cone.glb",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Models\\cono_de_transito__traffic_cone.glb"
+  },
+  {
+    "name": "low_polly_target_range.glb",
+    "type": "Targets",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\ASSETS AIM TRAINER W\\ASSETS AIM TRAINER W\\CAMPOTIRO\\low_polly_target_range.glb",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Targets\\low_polly_target_range.glb",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Targets\\low_polly_target_range.glb"
+  },
+  {
+    "name": "modulo_de_cercas.glb",
+    "type": "Models",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\ASSETS AIM TRAINER W\\ASSETS AIM TRAINER W\\CAMPOTIRO\\modulo_de_cercas.glb",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Models\\modulo_de_cercas.glb",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Models\\modulo_de_cercas.glb"
+  },
+  {
+    "name": "pack_of_sacks.glb",
+    "type": "Models",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\ASSETS AIM TRAINER W\\ASSETS AIM TRAINER W\\CAMPOTIRO\\pack_of_sacks.glb",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Models\\pack_of_sacks.glb",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Models\\pack_of_sacks.glb"
+  },
+  {
+    "name": "torre_grande.glb",
+    "type": "Models",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\ASSETS AIM TRAINER W\\ASSETS AIM TRAINER W\\CAMPOTIRO\\torre_grande.glb",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Models\\torre_grande.glb",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Models\\torre_grande.glb"
+  },
+  {
+    "name": "wall_tower.glb",
+    "type": "Models",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\ASSETS AIM TRAINER W\\ASSETS AIM TRAINER W\\CAMPOTIRO\\wall_tower.glb",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Models\\wall_tower.glb",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Models\\wall_tower.glb"
+  },
+  {
+    "name": "caja_de_madera_3d_estilo_low_poly_blender_3.2.glb",
+    "type": "Models",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\ASSETS AIM TRAINER W\\ASSETS AIM TRAINER W\\CONSTRUCCIONES\\caja_de_madera_3d_estilo_low_poly_blender_3.2.glb",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Models\\caja_de_madera_3d_estilo_low_poly_blender_3.2.glb",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Models\\caja_de_madera_3d_estilo_low_poly_blender_3.2.glb"
+  },
+  {
+    "name": "low-poly_brick_wall.glb",
+    "type": "Models",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\ASSETS AIM TRAINER W\\ASSETS AIM TRAINER W\\CONSTRUCCIONES\\low-poly_brick_wall.glb",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Models\\low-poly_brick_wall.glb",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Models\\low-poly_brick_wall.glb"
+  },
+  {
+    "name": "low_poly_concrete_barricade_44_tris_-_game_ready.glb",
+    "type": "Models",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\ASSETS AIM TRAINER W\\ASSETS AIM TRAINER W\\CONSTRUCCIONES\\low_poly_concrete_barricade_44_tris_-_game_ready.glb",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Models\\low_poly_concrete_barricade_44_tris_-_game_ready.glb",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Models\\low_poly_concrete_barricade_44_tris_-_game_ready.glb"
+  },
+  {
+    "name": "low_poly_simple_wood_modular_structures.glb",
+    "type": "Models",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\ASSETS AIM TRAINER W\\ASSETS AIM TRAINER W\\CONSTRUCCIONES\\low_poly_simple_wood_modular_structures.glb",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Models\\low_poly_simple_wood_modular_structures.glb",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Models\\low_poly_simple_wood_modular_structures.glb"
+  },
+  {
+    "name": "low_poly_style_3d_stone_effect_wall.glb",
+    "type": "Models",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\ASSETS AIM TRAINER W\\ASSETS AIM TRAINER W\\CONSTRUCCIONES\\low_poly_style_3d_stone_effect_wall.glb",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Models\\low_poly_style_3d_stone_effect_wall.glb",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Models\\low_poly_style_3d_stone_effect_wall.glb"
+  },
+  {
+    "name": "wall_low_poly.glb",
+    "type": "Models",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\ASSETS AIM TRAINER W\\ASSETS AIM TRAINER W\\CONSTRUCCIONES\\wall_low_poly.glb",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Models\\wall_low_poly.glb",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Models\\wall_low_poly.glb"
+  },
+  {
+    "name": "archery_target_low_poly.glb",
+    "type": "Targets",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\ASSETS AIM TRAINER W\\ASSETS AIM TRAINER W\\DIANAS\\archery_target_low_poly.glb",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Targets\\archery_target_low_poly.glb",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Targets\\archery_target_low_poly.glb"
+  },
+  {
+    "name": "poster_target.glb",
+    "type": "Targets",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\ASSETS AIM TRAINER W\\ASSETS AIM TRAINER W\\DIANAS\\poster_target.glb",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Targets\\poster_target.glb",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Targets\\poster_target.glb"
+  },
+  {
+    "name": "standard_firing_target.glb",
+    "type": "Targets",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\ASSETS AIM TRAINER W\\ASSETS AIM TRAINER W\\DIANAS\\standard_firing_target.glb",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Targets\\standard_firing_target.glb",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Targets\\standard_firing_target.glb"
+  },
+  {
+    "name": "target.glb",
+    "type": "Targets",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\ASSETS AIM TRAINER W\\ASSETS AIM TRAINER W\\DIANAS\\target.glb",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Targets\\target.glb",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Targets\\target.glb"
+  },
+  {
+    "name": "barril_-_barrel_3d_low_poly.glb",
+    "type": "Models",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\ASSETS AIM TRAINER W\\ASSETS AIM TRAINER W\\PROPS\\barril_-_barrel_3d_low_poly.glb",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Models\\barril_-_barrel_3d_low_poly.glb",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Models\\barril_-_barrel_3d_low_poly.glb"
+  },
+  {
+    "name": "cone_3d_low_poly.glb",
+    "type": "Models",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\ASSETS AIM TRAINER W\\ASSETS AIM TRAINER W\\PROPS\\cone_3d_low_poly.glb",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Models\\cone_3d_low_poly.glb",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Models\\cone_3d_low_poly.glb"
+  },
+  {
+    "name": "desk_and_pc.glb",
+    "type": "Models",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\ASSETS AIM TRAINER W\\ASSETS AIM TRAINER W\\PROPS\\desk_and_pc.glb",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Models\\desk_and_pc.glb",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Models\\desk_and_pc.glb"
+  },
+  {
+    "name": "dirty_traffic_cones_-_low_poly_asset_pack.glb",
+    "type": "Models",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\ASSETS AIM TRAINER W\\ASSETS AIM TRAINER W\\PROPS\\dirty_traffic_cones_-_low_poly_asset_pack.glb",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Models\\dirty_traffic_cones_-_low_poly_asset_pack.glb",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Models\\dirty_traffic_cones_-_low_poly_asset_pack.glb"
+  },
+  {
+    "name": "estante_low_poly.glb",
+    "type": "Models",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\ASSETS AIM TRAINER W\\ASSETS AIM TRAINER W\\PROPS\\estante_low_poly.glb",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Models\\estante_low_poly.glb",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Models\\estante_low_poly.glb"
+  },
+  {
+    "name": "lamplampara.glb",
+    "type": "Models",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\ASSETS AIM TRAINER W\\ASSETS AIM TRAINER W\\PROPS\\lamplampara.glb",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Models\\lamplampara.glb",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Models\\lamplampara.glb"
+  },
+  {
+    "name": "lamp_low_poly.glb",
+    "type": "Models",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\ASSETS AIM TRAINER W\\ASSETS AIM TRAINER W\\PROPS\\lamp_low_poly.glb",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Models\\lamp_low_poly.glb",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Models\\lamp_low_poly.glb"
+  },
+  {
+    "name": "low_poly_chair.glb",
+    "type": "Models",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\ASSETS AIM TRAINER W\\ASSETS AIM TRAINER W\\PROPS\\low_poly_chair.glb",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Models\\low_poly_chair.glb",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Models\\low_poly_chair.glb"
+  },
+  {
+    "name": "mesa_low_poly.glb",
+    "type": "Models",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\ASSETS AIM TRAINER W\\ASSETS AIM TRAINER W\\PROPS\\mesa_low_poly.glb",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Models\\mesa_low_poly.glb",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Models\\mesa_low_poly.glb"
+  },
+  {
+    "name": "stylized_low_poly_table.glb",
+    "type": "Models",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\ASSETS AIM TRAINER W\\ASSETS AIM TRAINER W\\PROPS\\stylized_low_poly_table.glb",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Models\\stylized_low_poly_table.glb",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Models\\stylized_low_poly_table.glb"
+  },
+  {
+    "name": "wooden_box_low_poly.glb",
+    "type": "Models",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\ASSETS AIM TRAINER W\\ASSETS AIM TRAINER W\\PROPS\\wooden_box_low_poly.glb",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Models\\wooden_box_low_poly.glb",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Models\\wooden_box_low_poly.glb"
+  },
+  {
+    "name": "wooden_pallets.glb",
+    "type": "Models",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\ASSETS AIM TRAINER W\\ASSETS AIM TRAINER W\\PROPS\\wooden_pallets.glb",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Models\\wooden_pallets.glb",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Models\\wooden_pallets.glb"
+  },
+  {
+    "name": "gravel_ground_patch.glb",
+    "type": "Models",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\ASSETS AIM TRAINER W\\ASSETS AIM TRAINER W\\SUELO\\gravel_ground_patch.glb",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Models\\gravel_ground_patch.glb",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Models\\gravel_ground_patch.glb"
+  },
+  {
+    "name": "patch_of_grass.glb",
+    "type": "Models",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\ASSETS AIM TRAINER W\\ASSETS AIM TRAINER W\\SUELO\\patch_of_grass.glb",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Models\\patch_of_grass.glb",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Models\\patch_of_grass.glb"
+  },
+  {
+    "name": "realistic_game-ready_terrain_environment.glb",
+    "type": "Models",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\ASSETS AIM TRAINER W\\ASSETS AIM TRAINER W\\SUELO\\realistic_game-ready_terrain_environment.glb",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Models\\realistic_game-ready_terrain_environment.glb",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Models\\realistic_game-ready_terrain_environment.glb"
+  },
+  {
+    "name": "stylized_low-poly_sand_block.glb",
+    "type": "Models",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\ASSETS AIM TRAINER W\\ASSETS AIM TRAINER W\\SUELO\\stylized_low-poly_sand_block.glb",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Models\\stylized_low-poly_sand_block.glb",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Models\\stylized_low-poly_sand_block.glb"
+  },
+  {
+    "name": "Ubuntu-Regular.ttf",
+    "type": "Documentation",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\GodotFPS-Assets\\GodotFPS-Assets\\Font\\Ubuntu-Regular.ttf",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Documentation\\Ubuntu-Regular.ttf",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Shared\\Ubuntu-Regular.ttf"
+  },
+  {
+    "name": "Fence.mtl",
+    "type": "Documentation",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\GodotFPS-Assets\\GodotFPS-Assets\\Models\\Environment\\Fence.mtl",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Documentation\\Fence.mtl",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Shared\\Fence.mtl"
+  },
+  {
+    "name": "Fence.obj",
+    "type": "Models",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\GodotFPS-Assets\\GodotFPS-Assets\\Models\\Environment\\Fence.obj",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Models\\Fence.obj",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Models\\Fence.obj"
+  },
+  {
+    "name": "Fence.obj.import",
+    "type": "Documentation",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\GodotFPS-Assets\\GodotFPS-Assets\\Models\\Environment\\Fence.obj.import",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Documentation\\Fence.obj.import",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Shared\\Fence.obj.import"
+  },
+  {
+    "name": "Ground.mtl",
+    "type": "Documentation",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\GodotFPS-Assets\\GodotFPS-Assets\\Models\\Environment\\Ground.mtl",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Documentation\\Ground.mtl",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Shared\\Ground.mtl"
+  },
+  {
+    "name": "Ground.obj",
+    "type": "Models",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\GodotFPS-Assets\\GodotFPS-Assets\\Models\\Environment\\Ground.obj",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Models\\Ground.obj",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Models\\Ground.obj"
+  },
+  {
+    "name": "Ground.obj.import",
+    "type": "Documentation",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\GodotFPS-Assets\\GodotFPS-Assets\\Models\\Environment\\Ground.obj.import",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Documentation\\Ground.obj.import",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Shared\\Ground.obj.import"
+  },
+  {
+    "name": "Tree_1.mtl",
+    "type": "Documentation",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\GodotFPS-Assets\\GodotFPS-Assets\\Models\\Environment\\Tree_1.mtl",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Documentation\\Tree_1.mtl",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Shared\\Tree_1.mtl"
+  },
+  {
+    "name": "Tree_1.obj",
+    "type": "Models",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\GodotFPS-Assets\\GodotFPS-Assets\\Models\\Environment\\Tree_1.obj",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Models\\Tree_1.obj",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Models\\Tree_1.obj"
+  },
+  {
+    "name": "Tree_1.obj.import",
+    "type": "Documentation",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\GodotFPS-Assets\\GodotFPS-Assets\\Models\\Environment\\Tree_1.obj.import",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Documentation\\Tree_1.obj.import",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Shared\\Tree_1.obj.import"
+  },
+  {
+    "name": "Tree_2.mtl",
+    "type": "Documentation",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\GodotFPS-Assets\\GodotFPS-Assets\\Models\\Environment\\Tree_2.mtl",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Documentation\\Tree_2.mtl",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Shared\\Tree_2.mtl"
+  },
+  {
+    "name": "Tree_2.obj",
+    "type": "Models",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\GodotFPS-Assets\\GodotFPS-Assets\\Models\\Environment\\Tree_2.obj",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Models\\Tree_2.obj",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Models\\Tree_2.obj"
+  },
+  {
+    "name": "Tree_2.obj.import",
+    "type": "Documentation",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\GodotFPS-Assets\\GodotFPS-Assets\\Models\\Environment\\Tree_2.obj.import",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Documentation\\Tree_2.obj.import",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Shared\\Tree_2.obj.import"
+  },
+  {
+    "name": "AmmoBoxModel.dae",
+    "type": "Documentation",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\GodotFPS-Assets\\GodotFPS-Assets\\Models\\Pickups\\AmmoBoxModel.dae",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Documentation\\AmmoBoxModel.dae",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Shared\\AmmoBoxModel.dae"
+  },
+  {
+    "name": "AmmoBoxModel.dae.import",
+    "type": "Documentation",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\GodotFPS-Assets\\GodotFPS-Assets\\Models\\Pickups\\AmmoBoxModel.dae.import",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Documentation\\AmmoBoxModel.dae.import",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Shared\\AmmoBoxModel.dae.import"
+  },
+  {
+    "name": "Bullet.material",
+    "type": "Materials",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\GodotFPS-Assets\\GodotFPS-Assets\\Models\\Pickups\\Bullet.material",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Materials\\Bullet.material",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Materials\\Bullet.material"
+  },
+  {
+    "name": "Container.material",
+    "type": "Materials",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\GodotFPS-Assets\\GodotFPS-Assets\\Models\\Pickups\\Container.material",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Materials\\Container.material",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Materials\\Container.material"
+  },
+  {
+    "name": "Drum.material",
+    "type": "Materials",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\GodotFPS-Assets\\GodotFPS-Assets\\Models\\Pickups\\Drum.material",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Materials\\Drum.material",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Materials\\Drum.material"
+  },
+  {
+    "name": "Health.material",
+    "type": "Materials",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\GodotFPS-Assets\\GodotFPS-Assets\\Models\\Pickups\\Health.material",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Materials\\Health.material",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Materials\\Health.material"
+  },
+  {
+    "name": "HealthPackModel.dae",
+    "type": "Documentation",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\GodotFPS-Assets\\GodotFPS-Assets\\Models\\Pickups\\HealthPackModel.dae",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Documentation\\HealthPackModel.dae",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Shared\\HealthPackModel.dae"
+  },
+  {
+    "name": "HealthPackModel.dae.import",
+    "type": "Documentation",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\GodotFPS-Assets\\GodotFPS-Assets\\Models\\Pickups\\HealthPackModel.dae.import",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Documentation\\HealthPackModel.dae.import",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Shared\\HealthPackModel.dae.import"
+  },
+  {
+    "name": "White.material",
+    "type": "Materials",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\GodotFPS-Assets\\GodotFPS-Assets\\Models\\Pickups\\White.material",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Materials\\White.material",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Materials\\White.material"
+  },
+  {
+    "name": "ammo_pistol.mtl",
+    "type": "Documentation",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\GodotFPS-Assets\\GodotFPS-Assets\\Models\\Weapon\\ammo_pistol.mtl",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Documentation\\ammo_pistol.mtl",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Shared\\ammo_pistol.mtl"
+  },
+  {
+    "name": "ammo_pistol.obj",
+    "type": "Weapons",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\GodotFPS-Assets\\GodotFPS-Assets\\Models\\Weapon\\ammo_pistol.obj",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Weapons\\ammo_pistol.obj",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Weapons\\ammo_pistol.obj"
+  },
+  {
+    "name": "ammo_pistol.obj.import",
+    "type": "Documentation",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\GodotFPS-Assets\\GodotFPS-Assets\\Models\\Weapon\\ammo_pistol.obj.import",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Documentation\\ammo_pistol.obj.import",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Shared\\ammo_pistol.obj.import"
+  },
+  {
+    "name": "shotgun.mtl",
+    "type": "Documentation",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\GodotFPS-Assets\\GodotFPS-Assets\\Models\\Weapon\\shotgun.mtl",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Documentation\\shotgun.mtl",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Shared\\shotgun.mtl"
+  },
+  {
+    "name": "shotgun.obj",
+    "type": "Weapons",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\GodotFPS-Assets\\GodotFPS-Assets\\Models\\Weapon\\shotgun.obj",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Weapons\\shotgun.obj",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Weapons\\shotgun.obj"
+  },
+  {
+    "name": "shotgun.obj.import",
+    "type": "Documentation",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\GodotFPS-Assets\\GodotFPS-Assets\\Models\\Weapon\\shotgun.obj.import",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Documentation\\shotgun.obj.import",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Shared\\shotgun.obj.import"
+  },
+  {
+    "name": "Crosshair.png",
+    "type": "Textures",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\GodotFPS-Assets\\GodotFPS-Assets\\UI\\Crosshair.png",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Textures\\Crosshair.png",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Textures\\Crosshair.png"
+  },
+  {
+    "name": "Crosshair.png.import",
+    "type": "Documentation",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\GodotFPS-Assets\\GodotFPS-Assets\\UI\\Crosshair.png.import",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Documentation\\Crosshair.png.import",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Shared\\Crosshair.png.import"
+  },
+  {
+    "name": "UI_Square.png",
+    "type": "Textures",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\GodotFPS-Assets\\GodotFPS-Assets\\UI\\UI_Square.png",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Textures\\UI_Square.png",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Textures\\UI_Square.png"
+  },
+  {
+    "name": "UI_Square.png.import",
+    "type": "Documentation",
+    "original_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\extracted\\GodotFPS-Assets\\GodotFPS-Assets\\UI\\UI_Square.png.import",
+    "catalog_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\workspace\\catalog\\Documentation\\UI_Square.png.import",
+    "status": "integrated",
+    "final_path": "C:\\Users\\ANTONIO\\Desktop\\GardenWay\\garden-way\\Assets\\Shared\\UI_Square.png.import"
+  }
+]

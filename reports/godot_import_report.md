@@ -1,0 +1,52 @@
+# Godot Import Compatibility Report
+
+- [OK] ammo_cassings.glb is natively supported by Godot 4.x
+- [OK] AssaultRifle_2.glb is natively supported by Godot 4.x
+- [OK] caja_municion_low_poly.glb is natively supported by Godot 4.x
+- [OK] free_low_poly_shotgun__escopeta.glb is natively supported by Godot 4.x
+- [OK] guns_low_poly.glb is natively supported by Godot 4.x
+- [OK] low-poly_ammo_can.glb is natively supported by Godot 4.x
+- [OK] low-poly_guns_pack.glb is natively supported by Godot 4.x
+- [OK] pistol_g17_low_poly.glb is natively supported by Godot 4.x
+- [OK] barrera_acustica.glb is natively supported by Godot 4.x
+- [OK] cercas.glb is natively supported by Godot 4.x
+- [OK] city_wall.glb is natively supported by Godot 4.x
+- [OK] coleccion_vallas_de_obra_low-poly__high-poly.glb is natively supported by Godot 4.x
+- [OK] cono_de_transito__traffic_cone.glb is natively supported by Godot 4.x
+- [OK] low_polly_target_range.glb is natively supported by Godot 4.x
+- [OK] modulo_de_cercas.glb is natively supported by Godot 4.x
+- [OK] pack_of_sacks.glb is natively supported by Godot 4.x
+- [OK] torre_grande.glb is natively supported by Godot 4.x
+- [OK] wall_tower.glb is natively supported by Godot 4.x
+- [OK] caja_de_madera_3d_estilo_low_poly_blender_3.2.glb is natively supported by Godot 4.x
+- [OK] low-poly_brick_wall.glb is natively supported by Godot 4.x
+- [OK] low_poly_concrete_barricade_44_tris_-_game_ready.glb is natively supported by Godot 4.x
+- [OK] low_poly_simple_wood_modular_structures.glb is natively supported by Godot 4.x
+- [OK] low_poly_style_3d_stone_effect_wall.glb is natively supported by Godot 4.x
+- [OK] wall_low_poly.glb is natively supported by Godot 4.x
+- [OK] archery_target_low_poly.glb is natively supported by Godot 4.x
+- [OK] poster_target.glb is natively supported by Godot 4.x
+- [OK] standard_firing_target.glb is natively supported by Godot 4.x
+- [OK] target.glb is natively supported by Godot 4.x
+- [OK] barril_-_barrel_3d_low_poly.glb is natively supported by Godot 4.x
+- [OK] cone_3d_low_poly.glb is natively supported by Godot 4.x
+- [OK] desk_and_pc.glb is natively supported by Godot 4.x
+- [OK] dirty_traffic_cones_-_low_poly_asset_pack.glb is natively supported by Godot 4.x
+- [OK] estante_low_poly.glb is natively supported by Godot 4.x
+- [OK] lamplampara.glb is natively supported by Godot 4.x
+- [OK] lamp_low_poly.glb is natively supported by Godot 4.x
+- [OK] low_poly_chair.glb is natively supported by Godot 4.x
+- [OK] mesa_low_poly.glb is natively supported by Godot 4.x
+- [OK] stylized_low_poly_table.glb is natively supported by Godot 4.x
+- [OK] wooden_box_low_poly.glb is natively supported by Godot 4.x
+- [OK] wooden_pallets.glb is natively supported by Godot 4.x
+- [OK] gravel_ground_patch.glb is natively supported by Godot 4.x
+- [OK] patch_of_grass.glb is natively supported by Godot 4.x
+- [OK] realistic_game-ready_terrain_environment.glb is natively supported by Godot 4.x
+- [OK] stylized_low-poly_sand_block.glb is natively supported by Godot 4.x
+- [WARNING] Fence.obj is .obj, recommend GLB/GLTF for Godot 4.x
+- [WARNING] Ground.obj is .obj, recommend GLB/GLTF for Godot 4.x
+- [WARNING] Tree_1.obj is .obj, recommend GLB/GLTF for Godot 4.x
+- [WARNING] Tree_2.obj is .obj, recommend GLB/GLTF for Godot 4.x
+- [WARNING] ammo_pistol.obj is .obj, recommend GLB/GLTF for Godot 4.x
+- [WARNING] shotgun.obj is .obj, recommend GLB/GLTF for Godot 4.x

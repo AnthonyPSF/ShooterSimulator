@@ -1,0 +1,8 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://ccumshevl6wca"]
+
+[ext_resource type="Texture2D" uid="uid://b0wphet0xw3wl" path="res://workspace/extracted/ASSETS AIM TRAINER W/ASSETS AIM TRAINER W/SUELO/realistic_game-ready_terrain_environment_0.jpg" id="1_sa1nx"]
+
+[resource]
+albedo_texture = ExtResource("1_sa1nx")
+uv1_scale = Vector3(1.5, 1.5, 1.5)
+uv1_triplanar = true
