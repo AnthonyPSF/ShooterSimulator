@@ -44,14 +44,17 @@ func update_crop_visual():
 func on_interact(player):
 	var tool = player.current_tool
 	if tool == "seed" and state == PlotState.UNPLANTED:
-		# Load the BasicCrop from Resources
-		current_crop_data = load("res://Resources/CropData/BasicCrop.tres")
-		if current_crop_data:
-			state = PlotState.PLANTED
-			growth_progress = 0.0
-			current_stage = 0
-			update_crop_visual()
-			print("Planted seed!")
+		if InventoryManager.remove_item("seed_basic", 1):
+			# Load the BasicCrop from Resources
+			current_crop_data = load("res://Resources/CropData/BasicCrop.tres")
+			if current_crop_data:
+				state = PlotState.PLANTED
+				growth_progress = 0.0
+				current_stage = 0
+				update_crop_visual()
+				print("Planted seed! Semillas restantes: ", InventoryManager.get_item_amount("seed_basic"))
+		else:
+			print("No tienes semillas!")
 	elif tool == "water" and state == PlotState.PLANTED:
 		state = PlotState.WATERED
 		mesh_instance.material_override = wet_mat
@@ -59,6 +62,8 @@ func on_interact(player):
 	elif tool == "harvest":
 		if current_crop_data != null and growth_progress >= current_crop_data.grow_time_seconds:
 			print("Harvested " + current_crop_data.crop_name + "!")
+			InventoryManager.add_money(20) # Hardcoded value for now
+			print("Dinero actual: ", InventoryManager.money)
 			reset_plot()
 
 func reset_plot():

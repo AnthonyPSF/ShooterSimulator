@@ -27,6 +27,7 @@ var bob_time: float = 0.0
 var target_sway: Vector2 = Vector2.ZERO
 var was_on_floor: bool = true
 
+
 # Comentarios sobre Capas de Colisión / Máscaras asumidas:
 # - CharacterBody3D (Player): Collision Layer 1 (Mundo/Físicas Básicas). Mask 1.
 # - InteractionRay: Debe estar en la máscara correspondiente a los interactuables (ej. Layer 2),
@@ -67,6 +68,7 @@ func _ready() -> void:
 		mouse_ev.button_index = MOUSE_BUTTON_LEFT
 		InputMap.action_add_event("interact", mouse_ev)
 		
+
 	# Instanciar el HUD nativamente por código para evitar romper escenas
 	var hud = preload("res://Scripts/Player/PlayerHUD.gd").new()
 	add_child(hud)
@@ -86,6 +88,7 @@ func _unhandled_input(event: InputEvent) -> void:
 			Input.mouse_mode = Input.MOUSE_MODE_VISIBLE
 		else:
 			Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
+
 
 func apply_recoil(pitch_rad: float, yaw_rad: float) -> void:
 	rotate_y(-yaw_rad)

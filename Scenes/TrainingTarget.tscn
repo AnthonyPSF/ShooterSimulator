@@ -1,0 +1,53 @@
+[gd_scene format=3 uid="uid://ddmk6tcsgkqsu"]
+
+[ext_resource type="Script" path="res://Scripts/BaseTrainingTarget.gd" id="1_script"]
+
+[sub_resource type="BoxShape3D" id="BoxShape_Torso"]
+size = Vector3(0.6, 0.8, 0.1)
+
+[sub_resource type="SphereShape3D" id="SphereShape_Head"]
+radius = 0.2
+
+[sub_resource type="StandardMaterial3D" id="MatBody"]
+albedo_color = Color(0.15, 0.15, 0.15, 1)
+
+[sub_resource type="StandardMaterial3D" id="MatRing1"]
+albedo_color = Color(0.8, 0.1, 0.1, 1)
+
+[sub_resource type="StandardMaterial3D" id="MatRing2"]
+albedo_color = Color(0.9, 0.9, 0.9, 1)
+
+[node name="TrainingTarget" type="Area3D" unique_id=987654321]
+script = ExtResource("1_script")
+
+[node name="TorsoCollision" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.4, 0)
+shape = SubResource("BoxShape_Torso")
+
+[node name="HeadCollision" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.0, 0)
+shape = SubResource("SphereShape_Head")
+
+[node name="Visuals" type="CSGCombiner3D" parent="."]
+
+[node name="Torso" type="CSGBox3D" parent="Visuals"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.4, 0)
+size = Vector3(0.6, 0.8, 0.1)
+material = SubResource("MatBody")
+
+[node name="Head" type="CSGSphere3D" parent="Visuals"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.0, 0)
+radius = 0.2
+material = SubResource("MatBody")
+
+[node name="RingOut" type="CSGCylinder3D" parent="Visuals"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0.5, 0)
+radius = 0.25
+height = 0.11
+material = SubResource("MatRing2")
+
+[node name="RingIn" type="CSGCylinder3D" parent="Visuals"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0.5, 0)
+radius = 0.1
+height = 0.12
+material = SubResource("MatRing1")

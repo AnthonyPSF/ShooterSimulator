@@ -76,6 +76,7 @@ func _physics_process(delta: float):
 	var space_state = get_world_3d().direct_space_state
 	var query = PhysicsRayQueryParameters3D.create(global_position, next_pos)
 	query.exclude = exceptions
+	query.collide_with_areas = true
 	var result = space_state.intersect_ray(query)
 	
 	if result:

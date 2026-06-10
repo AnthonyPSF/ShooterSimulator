@@ -1,6 +1,16 @@
 [gd_scene format=3 uid="uid://mainscene001"]
 
+[ext_resource type="Material" uid="uid://ccumshevl6wca" path="res://Materials/Ground_Gravel.tres" id="1_4kpch"]
 [ext_resource type="PackedScene" uid="uid://b00gplayer01" path="res://Scenes/Player.tscn" id="1_play"]
+[ext_resource type="Script" uid="uid://ba3kxsgsy8nhi" path="res://Scripts/GameManagerAimLab.gd" id="2_g5f2f"]
+[ext_resource type="Material" uid="uid://bknu0yp5x3ye3" path="res://Materials/Concrete_Fence.tres" id="3_grg3l"]
+[ext_resource type="Script" uid="uid://dghuut1b1u620" path="res://Scripts/TargetManagerAimLab.gd" id="3_yg8c5"]
+[ext_resource type="Material" uid="uid://chrnrk6qj4re4" path="res://Materials/Wood_Table.tres" id="4_frkhe"]
+[ext_resource type="Material" uid="uid://dit6ev1s5vq4l" path="res://Materials/Cover_Wall.tres" id="5_1p5hy"]
+[ext_resource type="PackedScene" uid="uid://c0m8r7x0jqw1q" path="res://Scenes/GameOverUI.tscn" id="5_gameoverui"]
+[ext_resource type="Material" uid="uid://stqmams48wjm" path="res://Materials/Metal_Platform.tres" id="6_h1m7h"]
+[ext_resource type="PackedScene" uid="uid://precision001" path="res://Scenes/PrecisionTarget.tscn" id="6_precision"]
+[ext_resource type="PackedScene" uid="uid://longrange001" path="res://Scenes/LongRangeTarget.tscn" id="7_longrange"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_m1"]
 
@@ -17,6 +27,10 @@ sky = SubResource("Sky_m2")
 size = Vector2(20, 20)
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_m6"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_default"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_default"]
 albedo_color = Color(0.2, 0.5, 0.2, 1)
 
 [node name="Main" type="Node3D" unique_id=1244529972]
@@ -35,50 +49,134 @@ shape = SubResource("WorldBoundaryShape3D_m4")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="Ground" unique_id=1176401156]
 transform = Transform3D(5, 0, 0, 0, 1, 0, 0, 0, 5, -1.658453, 0, 0)
+material_override = ExtResource("1_4kpch")
 mesh = SubResource("PlaneMesh_m5")
 surface_material_override/0 = SubResource("StandardMaterial3D_m6")
 
 [node name="Player" parent="." unique_id=636834615 instance=ExtResource("1_play")]
-transform = Transform3D(0.81095755, 0, 0, 0, 0.81095755, 0, 0, 0, 0.81095755, -0.7761795, -0.17343593, 23.966679)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 49)
 
-[node name="ArenaGeometry" type="CSGCombiner3D" parent="." unique_id=2013828310]
-use_collision = true
+[node name="ArenaGeometry" type="Node3D" parent="." unique_id=2013828310]
 
-[node name="FenceN" type="CSGBox3D" parent="ArenaGeometry" unique_id=1814033831]
+[node name="FenceN" type="StaticBody3D" parent="ArenaGeometry"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, -50)
-size = Vector3(40, 2, 1)
 
-[node name="FenceS" type="CSGBox3D" parent="ArenaGeometry" unique_id=375452771]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ArenaGeometry/FenceN"]
+transform = Transform3D(40, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 0)
+shape = SubResource("BoxShape3D_default")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="ArenaGeometry/FenceN"]
+transform = Transform3D(40, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 0)
+material_override = ExtResource("3_grg3l")
+mesh = SubResource("BoxMesh_default")
+
+[node name="FenceS" type="StaticBody3D" parent="ArenaGeometry"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 50)
-size = Vector3(40, 2, 1)
 
-[node name="WeaponTable" type="CSGBox3D" parent="ArenaGeometry" unique_id=883818736]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.40478897, 0.5, 44.69934)
-size = Vector3(34.340942, 1, 1.5)
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ArenaGeometry/FenceS"]
+transform = Transform3D(40, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 0)
+shape = SubResource("BoxShape3D_default")
 
-[node name="FenceE" type="CSGBox3D" parent="ArenaGeometry" unique_id=509330354]
+[node name="MeshInstance3D" type="MeshInstance3D" parent="ArenaGeometry/FenceS"]
+transform = Transform3D(40, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 0)
+material_override = ExtResource("3_grg3l")
+mesh = SubResource("BoxMesh_default")
+
+[node name="WeaponTable" type="StaticBody3D" parent="ArenaGeometry"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 47.5)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ArenaGeometry/WeaponTable"]
+transform = Transform3D(10, 0, 0, 0, 1, 0, 0, 0, 1.5, 0, 0, 0)
+shape = SubResource("BoxShape3D_default")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="ArenaGeometry/WeaponTable"]
+transform = Transform3D(10, 0, 0, 0, 1, 0, 0, 0, 1.5, 0, 0, 0)
+material_override = ExtResource("4_frkhe")
+mesh = SubResource("BoxMesh_default")
+
+[node name="FenceE" type="StaticBody3D" parent="ArenaGeometry"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 1, 0)
-size = Vector3(1, 2, 100)
 
-[node name="FenceW" type="CSGBox3D" parent="ArenaGeometry" unique_id=1210153820]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ArenaGeometry/FenceE"]
+transform = Transform3D(1, 0, 0, 0, 2, 0, 0, 0, 100, 0, 0, 0)
+shape = SubResource("BoxShape3D_default")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="ArenaGeometry/FenceE"]
+transform = Transform3D(1, 0, 0, 0, 2, 0, 0, 0, 100, 0, 0, 0)
+material_override = ExtResource("3_grg3l")
+mesh = SubResource("BoxMesh_default")
+
+[node name="FenceW" type="StaticBody3D" parent="ArenaGeometry"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20, 1, 0)
-size = Vector3(1, 2, 100)
 
-[node name="Cover1" type="CSGBox3D" parent="ArenaGeometry" unique_id=80071230]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ArenaGeometry/FenceW"]
+transform = Transform3D(1, 0, 0, 0, 2, 0, 0, 0, 100, 0, 0, 0)
+shape = SubResource("BoxShape3D_default")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="ArenaGeometry/FenceW"]
+transform = Transform3D(1, 0, 0, 0, 2, 0, 0, 0, 100, 0, 0, 0)
+material_override = ExtResource("3_grg3l")
+mesh = SubResource("BoxMesh_default")
+
+[node name="Cover1" type="StaticBody3D" parent="ArenaGeometry"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 1, -5)
-size = Vector3(2, 2, 2)
 
-[node name="Cover2" type="CSGBox3D" parent="ArenaGeometry" unique_id=377557105]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ArenaGeometry/Cover1"]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0)
+shape = SubResource("BoxShape3D_default")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="ArenaGeometry/Cover1"]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0)
+material_override = ExtResource("5_1p5hy")
+mesh = SubResource("BoxMesh_default")
+
+[node name="Cover2" type="StaticBody3D" parent="ArenaGeometry"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.209177, 0.75, 26.35215)
-size = Vector3(4, 1.5, 1)
 
-[node name="Platform1" type="CSGBox3D" parent="ArenaGeometry" unique_id=1828555212]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ArenaGeometry/Cover2"]
+transform = Transform3D(4, 0, 0, 0, 1.5, 0, 0, 0, 1, 0, 0, 0)
+shape = SubResource("BoxShape3D_default")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="ArenaGeometry/Cover2"]
+transform = Transform3D(4, 0, 0, 0, 1.5, 0, 0, 0, 1, 0, 0, 0)
+material_override = ExtResource("5_1p5hy")
+mesh = SubResource("BoxMesh_default")
+
+[node name="Platform1" type="StaticBody3D" parent="ArenaGeometry"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10, 1, -10)
-size = Vector3(4, 2, 4)
 
-[node name="Ramp1" type="CSGBox3D" parent="ArenaGeometry" unique_id=1712616095]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ArenaGeometry/Platform1"]
+transform = Transform3D(4, 0, 0, 0, 2, 0, 0, 0, 4, 0, 0, 0)
+shape = SubResource("BoxShape3D_default")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="ArenaGeometry/Platform1"]
+transform = Transform3D(4, 0, 0, 0, 2, 0, 0, 0, 4, 0, 0, 0)
+material_override = ExtResource("6_h1m7h")
+mesh = SubResource("BoxMesh_default")
+
+[node name="Ramp1" type="StaticBody3D" parent="ArenaGeometry"]
 transform = Transform3D(1, 0, 0, 0, 0.9396926, -0.34202012, 0, 0.34202012, 0.9396926, -10, 0.5, -6.5)
-size = Vector3(4, 0.5, 6)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ArenaGeometry/Ramp1"]
+transform = Transform3D(4, 0, 0, 0, 0.5, 0, 0, 0, 6, 0, 0, 0)
+shape = SubResource("BoxShape3D_default")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="ArenaGeometry/Ramp1"]
+transform = Transform3D(4, 0, 0, 0, 0.5, 0, 0, 0, 6, 0, 0, 0)
+material_override = ExtResource("3_grg3l")
+mesh = SubResource("BoxMesh_default")
+
+[node name="GridshotWall" type="StaticBody3D" parent="ArenaGeometry"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15, 4, 40)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ArenaGeometry/GridshotWall"]
+transform = Transform3D(12, 0, 0, 0, 8, 0, 0, 0, 1, 0, 0, 0)
+shape = SubResource("BoxShape3D_default")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="ArenaGeometry/GridshotWall"]
+transform = Transform3D(12, 0, 0, 0, 8, 0, 0, 0, 1, 0, 0, 0)
+material_override = ExtResource("5_1p5hy")
+mesh = SubResource("BoxMesh_default")
 
 [node name="TargetSpawns" type="Node3D" parent="." unique_id=836039172]
 
@@ -115,3 +213,48 @@ text = "75m"
 [node name="Mark100m" type="Label3D" parent="DistanceMarkers" unique_id=1006152971]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 1.5, -50)
 text = "100m"
+
+[node name="GameManager" type="Node" parent="." unique_id=1099204064]
+script = ExtResource("2_g5f2f")
+
+[node name="UI" type="CanvasLayer" parent="." unique_id=846068459]
+
+[node name="ScoreLabel" type="Label" parent="UI" unique_id=320256811]
+text = "Score: 0"
+
+[node name="TimeLabel" type="Label" parent="UI" unique_id=1025829353]
+offset_top = 30.0
+offset_right = 1.0
+offset_bottom = 53.0
+text = "Time: 60"
+
+[node name="Crosshair" type="ColorRect" parent="UI" unique_id=827495577]
+offset_right = 4.0
+offset_bottom = 4.0
+color = Color(1, 0, 0, 1)
+
+[node name="GameOverUI" parent="UI" unique_id=1177447330 instance=ExtResource("5_gameoverui")]
+
+[node name="TargetManager" type="Node3D" parent="." unique_id=1320198104]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15, 1, 40.6)
+script = ExtResource("3_yg8c5")
+
+[node name="StaticTargets" type="Node3D" parent="." unique_id=577434088]
+
+[node name="Target10m" parent="StaticTargets" unique_id=1552411360 instance=ExtResource("6_precision")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 39)
+
+[node name="Target25m" parent="StaticTargets" unique_id=40132968 instance=ExtResource("6_precision")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 24)
+
+[node name="Target50m" parent="StaticTargets" unique_id=799275030 instance=ExtResource("6_precision")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -1)
+
+[node name="Target75m_Left" parent="StaticTargets" unique_id=62738293 instance=ExtResource("7_longrange")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 0, -26)
+
+[node name="Target75m_Right" parent="StaticTargets" unique_id=2110229325 instance=ExtResource("7_longrange")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -26)
+
+[node name="Target100m" parent="StaticTargets" unique_id=1235180385 instance=ExtResource("7_longrange")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -49)

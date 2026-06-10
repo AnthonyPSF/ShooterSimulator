@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://c1t8rhih2j737"]
 
 [ext_resource type="Script" path="res://Scripts/TargetAimLab.gd" id="1_gjehy"]
+[ext_resource type="PackedScene" path="res://Assets/Targets/standard_firing_target.glb" id="2_asset"]
 
 [sub_resource type="SphereShape3D" id="SphereShape3D_h3i1h"]
 
@@ -10,4 +11,5 @@ script = ExtResource("1_gjehy")
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=391152112]
 shape = SubResource("SphereShape3D_h3i1h")
 
-[node name="CSGSphere3D" type="CSGSphere3D" parent="." unique_id=1219744580]
+
+[node name="TargetModel" parent="." instance=ExtResource("2_asset")]

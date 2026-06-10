@@ -1,9 +1,12 @@
 [gd_scene format=3 uid="uid://b00gplayer01"]
 
 [ext_resource type="Script" uid="uid://cq2aba20sx2ia" path="res://Scripts/Player/PlayerController.gd" id="1_playr"]
-[ext_resource type="Script" path="res://Scripts/Weapons/WeaponManager.gd" id="2_wepman"]
-[ext_resource type="Script" path="res://Scripts/Weapons/AssaultRifle.gd" id="3_ar"]
+[ext_resource type="Script" uid="uid://bgx5cd36fhiqq" path="res://Scripts/Weapons/WeaponManager.gd" id="2_wepman"]
+[ext_resource type="Script" uid="uid://choi2d84o4uk6" path="res://Scripts/Weapons/AssaultRifle.gd" id="3_ar"]
+[ext_resource type="PackedScene" uid="uid://ilsudbljxn0w" path="res://Assets/Weapons/AssaultRifle_2.glb" id="2203_asset"]
+[ext_resource type="PackedScene" uid="uid://3ciwrt0gj71u" path="res://Assets/Weapons/pistol_g17_low_poly.glb" id="2204_asset"]
 
+[ext_resource type="PackedScene" path="res://Scenes/FPSArms.tscn" id="5_fpsarms"]
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_0p1"]
 radius = 0.4
 height = 1.8
@@ -58,14 +61,22 @@ target_position = Vector3(0, 0, -3)
 [node name="ToolAttachmentPoint" type="Marker3D" parent="HeadPivot/MainCamera/ViewmodelPivot" unique_id=1363166954]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.6)
 
-[node name="WeaponManager" type="Node3D" parent="HeadPivot/MainCamera/ViewmodelPivot"]
+[node name="FPSArms" parent="HeadPivot/MainCamera/ViewmodelPivot" instance=ExtResource("5_fpsarms")]
+
+[node name="WeaponManager" type="Node3D" parent="HeadPivot/MainCamera/ViewmodelPivot" unique_id=1892983998]
 script = ExtResource("2_wepman")
 
-[node name="AssaultRifle" type="Node3D" parent="HeadPivot/MainCamera/ViewmodelPivot/WeaponManager"]
+[node name="AssaultRifle" type="Node3D" parent="HeadPivot/MainCamera/ViewmodelPivot/WeaponManager" unique_id=799184463]
 script = ExtResource("3_ar")
 
-[node name="Pistol" type="Node3D" parent="HeadPivot/MainCamera/ViewmodelPivot/WeaponManager"]
+[node name="AssaultRifleModel" parent="HeadPivot/MainCamera/ViewmodelPivot/WeaponManager/AssaultRifle" unique_id=390144209 instance=ExtResource("2203_asset")]
+transform = Transform3D(-1.6289955e-06, 0, 0.45, 0, 0.45, 0, -0.45, 0, -1.6289955e-06, 0.18, -0.16, -0.18)
+
+[node name="Pistol" type="Node3D" parent="HeadPivot/MainCamera/ViewmodelPivot/WeaponManager" unique_id=170376111]
 script = ExtResource("3_ar")
+
+[node name="PistolModel" parent="HeadPivot/MainCamera/ViewmodelPivot/WeaponManager/Pistol" unique_id=1705889328 instance=ExtResource("2204_asset")]
+transform = Transform3D(-1.085997e-07, 0, 0.03, 0, 0.03, 0, -0.03, 0, -1.085997e-07, 0.18, -0.15, -0.3)
 
 [node name="HeadMesh" type="MeshInstance3D" parent="." unique_id=1580293928]
 transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.06886482, 1.8595276, -0.12393713)
@@ -74,6 +85,7 @@ mesh = SubResource("BoxMesh_dewec")
 surface_material_override/0 = SubResource("StandardMaterial3D_dewec")
 
 [node name="TorsoMesh" type="MeshInstance3D" parent="." unique_id=1076415005]
+visible = false
 transform = Transform3D(0.5, 0, 0, 0, 0.75, 0, 0, 0, 0.25, 0, 1, 0)
 cast_shadow = 3
 mesh = SubResource("BoxMesh_nn08x")
@@ -92,12 +104,14 @@ mesh = SubResource("BoxMesh_yoq75")
 surface_material_override/0 = SubResource("StandardMaterial3D_52ee3")
 
 [node name="RightArmMesh" type="MeshInstance3D" parent="." unique_id=577578816]
+visible = false
 transform = Transform3D(0.25, 0, 0, 0, 0.75, 0, 0, 0, 0.25, -0.375, 1, 0)
 cast_shadow = 3
 mesh = SubResource("BoxMesh_megsn")
 surface_material_override/0 = SubResource("StandardMaterial3D_yoq75")
 
 [node name="LeftArmMesh" type="MeshInstance3D" parent="." unique_id=1273427556]
+visible = false
 transform = Transform3D(0.25, 0, 0, 0, 0.75, 0, 0, 0, 0.25, 0.375, 1, 0)
 cast_shadow = 3
 mesh = SubResource("BoxMesh_ksbbd")

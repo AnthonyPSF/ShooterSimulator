@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://fpsarms001"]
+
+[ext_resource type="Script" path="res://Scripts/Player/FPSArms.gd" id="1_script"]
+
+[node name="FPSArms" type="Node3D"]
+script = ExtResource("1_script")
+
+[node name="RightHand" type="MeshInstance3D" parent="."]
+
+[node name="LeftHand" type="MeshInstance3D" parent="."]
+
+[node name="RightArm" type="MeshInstance3D" parent="."]
+
+[node name="LeftArm" type="MeshInstance3D" parent="."]

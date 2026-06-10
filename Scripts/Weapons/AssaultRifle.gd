@@ -3,6 +3,7 @@ class_name Weapon
 
 signal ammo_changed(current: int, reserve: int)
 signal weapon_reloaded()
+signal bullet_fired()
 
 var weapon_data: WeaponData
 var proj_data: ProjectileData
@@ -12,7 +13,7 @@ var recoil_system: RecoilSystem
 var current_shot_index: int = 0
 var time_since_last_shot: float = 0.0
 
-var mesh_inst: MeshInstance3D
+var mesh_inst: Node3D
 var original_mesh_pos: Vector3 = Vector3(0.3, -0.3, -0.6)
 var mesh_recoil_offset: Vector3 = Vector3.ZERO
 
@@ -54,12 +55,23 @@ func _ready():
 	recoil_system = RecoilSystem.new()
 	add_child(recoil_system)
 	
-	mesh_inst = MeshInstance3D.new()
-	var box = BoxMesh.new()
-	box.size = Vector3(0.1, 0.2, 0.8)
-	mesh_inst.mesh = box
-	mesh_inst.position = original_mesh_pos
-	add_child(mesh_inst)
+	# Buscar modelo 3D inyectado en el editor
+	for child in get_children():
+		if child is Node3D and child != recoil_system:
+			mesh_inst = child
+			break
+			
+	if mesh_inst:
+		original_mesh_pos = mesh_inst.position
+	else:
+		# Fallback: Generar placeholder si no hay modelo 3D
+		var fallback_mesh = MeshInstance3D.new()
+		var box = BoxMesh.new()
+		box.size = Vector3(0.1, 0.2, 0.8)
+		fallback_mesh.mesh = box
+		fallback_mesh.position = original_mesh_pos
+		add_child(fallback_mesh)
+		mesh_inst = fallback_mesh
 	
 	current_ammo = weapon_data.magazine_size
 	current_reserve = weapon_data.max_reserve
@@ -115,6 +127,7 @@ func fire():
 		
 	current_ammo -= 1
 	update_ammo_ui()
+	bullet_fired.emit()
 		
 	last_fire_time = current_time
 	time_since_last_shot = 0.0

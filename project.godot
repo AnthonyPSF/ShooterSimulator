@@ -19,6 +19,7 @@ config/icon="res://icon.svg"
 
 ProjectileManager="*res://Scripts/Weapons/ProjectileManager.gd"
 ImpactManager="*res://Scripts/Weapons/ImpactManager.gd"
+InventoryManager="*res://Scripts/InventoryManager.gd"
 _mcp_game_helper="*res://addons/godot_ai/runtime/game_helper.gd"
 
 [editor_plugins]
