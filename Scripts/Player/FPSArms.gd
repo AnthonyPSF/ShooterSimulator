@@ -99,7 +99,7 @@ func _process(delta):
 				r_grip.name = "RightGrip"
 				current_weapon_node.add_child(r_grip)
 				if current_weapon_node.name == "Pistol":
-					r_grip.position = Vector3(0.18, -0.17, -0.3) # Justo en el mango
+					r_grip.position = Vector3(0.20, -0.12, -0.35) # Justo en el mango
 				else:
 					r_grip.position = Vector3(0.22, -0.16, -0.25) # Cerca de la culata/gatillo del rifle
 			if not l_grip:
@@ -107,7 +107,7 @@ func _process(delta):
 				l_grip.name = "LeftGrip"
 				current_weapon_node.add_child(l_grip)
 				if current_weapon_node.name == "Pistol":
-					l_grip.position = Vector3(0.16, -0.18, -0.32) # Envolviendo la mano derecha
+					l_grip.position = Vector3(0.18, -0.13, -0.37) # Envolviendo la mano derecha
 				else:
 					l_grip.position = Vector3(0.23, -0.17, -0.7) # En el cañón del rifle
 					

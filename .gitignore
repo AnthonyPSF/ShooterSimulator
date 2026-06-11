@@ -16,4 +16,9 @@ data_*/
 mono_crash.*.json
 *.zip
 
+# Debug screenshots (ignorar capturas de debug)
+debug_shot_*.png
+debug_shot_*.png.import
+
+# Workspace (catálogo de assets de referencia, no usado en el juego)
 workspace/

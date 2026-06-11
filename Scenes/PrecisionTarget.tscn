@@ -8,5 +8,7 @@ transform = Transform3D(0.4, 0, 0, 0, 0.4, 0, 0, 0, 0.4, 0, 0, 0)
 points = 200
 target_size = 0.4
 
+[node name="Visuals" parent="." index="2"]
+visible = false
 
 [node name="TargetModel" parent="." instance=ExtResource("2_asset")]
