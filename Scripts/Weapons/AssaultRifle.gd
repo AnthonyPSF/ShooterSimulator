@@ -15,7 +15,9 @@ var time_since_last_shot: float = 0.0
 
 var mesh_inst: Node3D
 var original_mesh_pos: Vector3 = Vector3(0.3, -0.3, -0.6)
+var original_mesh_rot: Vector3 = Vector3.ZERO
 var mesh_recoil_offset: Vector3 = Vector3.ZERO
+var mesh_recoil_rot: Vector3 = Vector3.ZERO
 
 var current_ammo: int = 0
 var current_reserve: int = 0
@@ -63,6 +65,7 @@ func _ready():
 			
 	if mesh_inst:
 		original_mesh_pos = mesh_inst.position
+		original_mesh_rot = mesh_inst.rotation_degrees
 	else:
 		# Fallback: Generar placeholder si no hay modelo 3D
 		var fallback_mesh = MeshInstance3D.new()
@@ -89,8 +92,8 @@ func reload():
 	
 	# Mini animación visual de recarga
 	var tween = create_tween()
-	tween.tween_property(mesh_inst, "rotation_degrees:x", 45.0, 0.3)
-	tween.tween_property(mesh_inst, "rotation_degrees:x", 0.0, weapon_data.reload_time - 0.3)
+	tween.tween_property(mesh_inst, "rotation_degrees:x", original_mesh_rot.x + 45.0, 0.3)
+	tween.tween_property(mesh_inst, "rotation_degrees:x", original_mesh_rot.x, weapon_data.reload_time - 0.3)
 	
 	await get_tree().create_timer(weapon_data.reload_time).timeout
 	
@@ -114,8 +117,11 @@ func _process(delta: float):
 		
 	# Recuperación del retroceso visual (el arma vuelve a su sitio)
 	mesh_recoil_offset = mesh_recoil_offset.lerp(Vector3.ZERO, delta * 15.0)
+	mesh_recoil_rot = mesh_recoil_rot.lerp(Vector3.ZERO, delta * 15.0)
 	if is_instance_valid(mesh_inst):
 		mesh_inst.position = original_mesh_pos + mesh_recoil_offset
+		if not is_reloading:
+			mesh_inst.rotation_degrees = original_mesh_rot + mesh_recoil_rot
 
 func fire():
 	if is_reloading or current_ammo <= 0:
@@ -135,6 +141,11 @@ func fire():
 	# Aplicar retroceso visual (el modelo patea hacia atrás y arriba)
 	mesh_recoil_offset.z += 0.1
 	mesh_recoil_offset.y += 0.02
+	
+	if name == "Pistol":
+		mesh_recoil_rot.x += 20.0
+	else:
+		mesh_recoil_rot.x += 10.0
 	
 	# Aplicar retroceso mecánico (Cámara)
 	if recoil_system and weapon_data.recoil_pattern.size() > 0:
@@ -156,8 +167,36 @@ func fire():
 				break
 			current_node = current_node.get_parent()
 			
+		var muzzle_pos = global_position
+		var muzzle_node = null
+		if is_instance_valid(mesh_inst):
+			muzzle_node = mesh_inst.get_node_or_null("Muzzle")
+			
+		if muzzle_node:
+			muzzle_pos = muzzle_node.global_position
+		else:
+			var muzzle_offset = Vector3(0.0, 0.05, -0.6)
+			if name == "Pistol":
+				muzzle_offset = Vector3(0.0, 0.06, -0.25)
+			muzzle_pos = to_global(original_mesh_pos + mesh_recoil_offset + muzzle_offset)
+			
 		var aim_dir = -global_transform.basis.z
-		var muzzle_pos = to_global(Vector3(0.3, -0.3, -1.0))
+		var camera = get_viewport().get_camera_3d()
+		if camera:
+			var screen_center = get_viewport().get_visible_rect().size / 2.0
+			var ray_origin = camera.project_ray_origin(screen_center)
+			var ray_normal = camera.project_ray_normal(screen_center)
+			var target_pos = ray_origin + ray_normal * 100.0
+			
+			var space_state = camera.get_world_3d().direct_space_state
+			var query = PhysicsRayQueryParameters3D.create(ray_origin, ray_origin + ray_normal * 1000.0)
+			if player_node:
+				query.exclude = [player_node.get_rid()]
+			var result = space_state.intersect_ray(query)
+			if result:
+				target_pos = result.position
+				
+			aim_dir = (target_pos - muzzle_pos).normalized()
 		
 		proj.initialize(muzzle_pos, aim_dir, weapon_data.muzzle_velocity, player_vel, proj_data)
 		if player_node and proj.has_method("ignore_collider"):

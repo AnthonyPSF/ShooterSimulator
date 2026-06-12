@@ -1,15 +1,24 @@
 [gd_scene format=3 uid="uid://c1t8rhih2j737"]
 
-[ext_resource type="Script" path="res://Scripts/TargetAimLab.gd" id="1_gjehy"]
-[ext_resource type="PackedScene" path="res://Assets/Targets/standard_firing_target.glb" id="2_asset"]
+[ext_resource type="Script" uid="uid://by35lc0q4plby" path="res://Scripts/TargetAimLab.gd" id="1_gjehy"]
+[ext_resource type="PackedScene" uid="uid://cd75xai5nxyh5" path="res://Assets/Targets/standard_firing_target.glb" id="2_asset"]
 
-[sub_resource type="SphereShape3D" id="SphereShape3D_h3i1h"]
+[sub_resource type="BoxShape3D" id="BoxShape_Torso"]
+size = Vector3(0.6, 0.8, 0.1)
+
+[sub_resource type="SphereShape3D" id="SphereShape_Head"]
+radius = 0.2
 
 [node name="Target" type="Area3D" unique_id=802725184]
 script = ExtResource("1_gjehy")
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=391152112]
-shape = SubResource("SphereShape3D_h3i1h")
+[node name="TorsoCollision" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.4, 0)
+shape = SubResource("BoxShape_Torso")
 
+[node name="HeadCollision" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.0, 0)
+shape = SubResource("SphereShape_Head")
 
-[node name="TargetModel" parent="." instance=ExtResource("2_asset")]
+[node name="TargetModel" parent="." unique_id=1223970623 instance=ExtResource("2_asset")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0, 0, 0)

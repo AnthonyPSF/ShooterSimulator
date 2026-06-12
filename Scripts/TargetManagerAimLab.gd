@@ -60,5 +60,6 @@ func spawn_target():
 
 func _on_target_destroyed(cell_index: int):
 	occupied_cells[cell_index] = false
-	# Reposición instantánea
-	call_deferred("spawn_target")
+	# Cooldown de reaparición
+	var timer = get_tree().create_timer(0.5)
+	timer.timeout.connect(spawn_target)

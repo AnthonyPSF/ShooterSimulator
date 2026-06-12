@@ -112,13 +112,34 @@ func _process(delta):
 					l_grip.position = Vector3(0.23, -0.17, -0.7) # En el cañón del rifle
 					
 			var recoil_offset = Vector3.ZERO
-			if current_weapon_node.get("mesh_recoil_offset") != null:
+			var recoil_rot = Vector3.ZERO
+			var orig_pos = Vector3.ZERO
+			
+			if "mesh_recoil_offset" in current_weapon_node:
 				recoil_offset = current_weapon_node.mesh_recoil_offset
+			if "mesh_recoil_rot" in current_weapon_node:
+				recoil_rot = current_weapon_node.mesh_recoil_rot
+			if "original_mesh_pos" in current_weapon_node:
+				orig_pos = current_weapon_node.original_mesh_pos
 				
-			r_target = r_grip.global_position + recoil_offset
-			l_target = l_grip.global_position + recoil_offset
-			r_rot = r_grip.global_transform.basis
-			l_rot = l_grip.global_transform.basis
+			var recoil_transform = Transform3D()
+			recoil_transform = recoil_transform.rotated(Vector3.RIGHT, deg_to_rad(recoil_rot.x))
+			recoil_transform = recoil_transform.rotated(Vector3.UP, deg_to_rad(recoil_rot.y))
+			recoil_transform = recoil_transform.rotated(Vector3.FORWARD, deg_to_rad(recoil_rot.z))
+			recoil_transform.origin = recoil_offset
+			
+			var r_local_offset = r_grip.position - orig_pos
+			var l_local_offset = l_grip.position - orig_pos
+			
+			var r_recoiled_pos = orig_pos + recoil_transform * r_local_offset
+			var l_recoiled_pos = orig_pos + recoil_transform * l_local_offset
+			
+			r_target = current_weapon_node.to_global(r_recoiled_pos)
+			l_target = current_weapon_node.to_global(l_recoiled_pos)
+			
+			var weapon_global_basis = current_weapon_node.global_transform.basis
+			r_rot = weapon_global_basis * recoil_transform.basis
+			l_rot = weapon_global_basis * recoil_transform.basis
 			
 			# Ajustar grosor del brazo según arma
 			if current_weapon_node.name == "Pistol":

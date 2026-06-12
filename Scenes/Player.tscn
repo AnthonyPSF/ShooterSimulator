@@ -72,11 +72,17 @@ script = ExtResource("3_ar")
 [node name="AssaultRifleModel" parent="HeadPivot/MainCamera/ViewmodelPivot/WeaponManager/AssaultRifle" unique_id=390144209 instance=ExtResource("2203_asset")]
 transform = Transform3D(-1.6289955e-06, 0, 0.45, 0, 0.45, 0, -0.45, 0, -1.6289955e-06, 0.18, -0.16, -0.18)
 
+[node name="Muzzle" type="Marker3D" parent="HeadPivot/MainCamera/ViewmodelPivot/WeaponManager/AssaultRifle/AssaultRifleModel" unique_id=1804965209]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.33, 0.11, 0)
+
 [node name="Pistol" type="Node3D" parent="HeadPivot/MainCamera/ViewmodelPivot/WeaponManager" unique_id=170376111]
 script = ExtResource("3_ar")
 
 [node name="PistolModel" parent="HeadPivot/MainCamera/ViewmodelPivot/WeaponManager/Pistol" unique_id=1705889328 instance=ExtResource("2204_asset")]
 transform = Transform3D(-1.085997e-07, 0, 0.03, 0, 0.03, 0, -0.03, 0, -1.085997e-07, 0.2, -0.15, -0.44)
+
+[node name="Muzzle" type="Marker3D" parent="HeadPivot/MainCamera/ViewmodelPivot/WeaponManager/Pistol/PistolModel" unique_id=186113858]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.33, 2.0, 0)
 
 [node name="HeadMesh" type="MeshInstance3D" parent="." unique_id=1580293928]
 transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.06886482, 1.8595276, -0.12393713)
@@ -86,7 +92,6 @@ surface_material_override/0 = SubResource("StandardMaterial3D_dewec")
 
 [node name="TorsoMesh" type="MeshInstance3D" parent="." unique_id=1076415005]
 transform = Transform3D(0.5, 0, 0, 0, 0.75, 0, 0, 0, 0.25, 0, 1, 0)
-visible = false
 cast_shadow = 3
 mesh = SubResource("BoxMesh_nn08x")
 surface_material_override/0 = SubResource("StandardMaterial3D_5ixxa")
